@@ -598,7 +598,7 @@
     <p>Pour toute demande de renseignements ou de rendez-vous, merci de me contacter par téléphone ou par mail. Un premier appel nous permettra de déterminer ensemble si un suivi est approprié.</p>
     <div class="contact-btns">
       <div class="contact-block"><div class="c-label">Par téléphone</div><a class="call-btn" href="tel:+33619653998">Appeler</a><p class="c-note">Du lundi au vendredi</p></div>
-      <div class="contact-block"><div class="c-label">Par mail</div><a class="mail-btn" href="/cdn-cgi/l/email-protection#c5a6aaa4a6ada9a4b3aca085a2a8a4aca9eba6aaa8">Écrire</a><p class="c-note">Réponse sous 48h</p></div>
+      <div class="contact-block"><div class="c-label">Par mail</div><a class="mail-btn" href="mailto:coachlavie@gmail.com">Écrire</a><p class="c-note">Réponse sous 48h</p></div>
     </div>
     <hr class="divider">
     <div class="tarif-row"><span class="tarif-label">Séance individuelle (50 min)</span><span class="tarif-price">80 €</span></div>
@@ -611,23 +611,23 @@
 </footer>
 
 <script>
-  function show(id) {
-    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
-    document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
-    var el = document.getElementById(id);
-    if (el) el.classList.add('active');
-    var nav = document.getElementById('nav-' + id);
-    if (nav) nav.classList.add('active');
-    window.scrollTo(0, 0);
-  }
-  function toggleMenu() {
-    var menu = document.getElementById('mobile-menu');
-    if (menu) menu.classList.toggle('open');
-  }
-  function closeMenu() {
-    var menu = document.getElementById('mobile-menu');
-    if (menu) menu.classList.remove('open');
-  }
+function show(id) {
+  document.querySelectorAll('.page').forEach(function(p) { p.classList.remove('active'); });
+  document.querySelectorAll('.nav-links a').forEach(function(a) { a.classList.remove('active'); });
+  var el = document.getElementById(id);
+  if (el) { el.classList.add('active'); }
+  var nav = document.getElementById('nav-' + id);
+  if (nav) { nav.classList.add('active'); }
+  window.scrollTo(0, 0);
+}
+function toggleMenu() {
+  var menu = document.getElementById('mobile-menu');
+  if (menu) { menu.classList.toggle('open'); }
+}
+function closeMenu() {
+  var menu = document.getElementById('mobile-menu');
+  if (menu) { menu.classList.remove('open'); }
+}
 </script>
 </body>
 </html>
