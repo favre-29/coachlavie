@@ -196,23 +196,23 @@
 <!-- NAV -->
 <nav>
   <ul class="nav-links">
-    <li><a onclick="show('accueil')" id="nav-accueil" class="active">Accueil</a></li>
-    <li><a onclick="show('supervision')" id="nav-supervision">Supervision</a></li>
-    <li><a onclick="show('hpi')" id="nav-hpi">Haut potentiel</a></li>
-    <li><a onclick="show('prestations')" id="nav-prestations">Prestations</a></li>
-    <li><a onclick="show('presentation')" id="nav-presentation">Qui suis-je ?</a></li>
+    <li><a href="#" onclick="show('accueil');return false;" id="nav-accueil" class="active">Accueil</a></li>
+    <li><a href="#" onclick="show('supervision');return false;" id="nav-supervision">Supervision</a></li>
+    <li><a href="#" onclick="show('hpi');return false;" id="nav-hpi">Haut potentiel</a></li>
+    <li><a href="#" onclick="show('prestations');return false;" id="nav-prestations">Prestations</a></li>
+    <li><a href="#" onclick="show('presentation');return false;" id="nav-presentation">Qui suis-je ?</a></li>
   </ul>
-  <a class="nav-contact" onclick="show('contact')">Contact</a>
+  <a class="nav-contact" href="#" onclick="show('contact');return false;">Contact</a>
   <div class="burger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
 </nav>
 
 <div class="mobile-menu" id="mobile-menu">
-  <a onclick="show('accueil');closeMenu()">Accueil</a>
-  <a onclick="show('supervision');closeMenu()">Supervision</a>
-  <a onclick="show('hpi');closeMenu()">Haut potentiel</a>
-  <a onclick="show('prestations');closeMenu()">Prestations</a>
-  <a onclick="show('presentation');closeMenu()">Qui suis-je ?</a>
-  <a onclick="show('contact');closeMenu()">Contact</a>
+  <a href="#" onclick="show('accueil');closeMenu();return false;">Accueil</a>
+  <a href="#" onclick="show('supervision');closeMenu();return false;">Supervision</a>
+  <a href="#" onclick="show('hpi');closeMenu();return false;">Haut potentiel</a>
+  <a href="#" onclick="show('prestations');closeMenu();return false;">Prestations</a>
+  <a href="#" onclick="show('presentation');closeMenu();return false;">Qui suis-je ?</a>
+  <a href="#" onclick="show('contact');closeMenu();return false;">Contact</a>
 </div>
 
 <!-- ACCUEIL -->
@@ -299,8 +299,8 @@
         <circle cx="78" cy="72" r="2.5" fill="#C1533A" opacity="0.15"/><circle cx="170" cy="72" r="2.5" fill="#C1533A" opacity="0.15"/><circle cx="262" cy="72" r="2.5" fill="#C1533A" opacity="0.15"/>
       </svg>
       <p class="hero-lead">J'accompagne enfants, adolescents et adultes à haut potentiel intellectuel et profils atypiques — ainsi que les thérapeutes en supervision — dans un espace de confiance, d'écoute et de transformation.</p>
-      <a class="btn" onclick="show('supervision')">Supervision</a>
-      <a class="btn" onclick="show('hpi')">Haut potentiel</a>
+      <a class="btn" href="#" onclick="show('supervision');return false;">Supervision</a>
+      <a class="btn" href="#" onclick="show('hpi');return false;">Haut potentiel</a>
     </div>
   </div>
 
@@ -429,7 +429,7 @@
     <div class="tarif-row"><span class="tarif-label">Tarif groupe (3h)</span><span class="tarif-price">80 € / séance</span></div>
     <div class="tarif-row"><span class="tarif-label">Tarif individuel (1h)</span><span class="tarif-price">80 € / séance</span></div>
     <div class="tarif-row"><span class="tarif-label">Modalité</span><span class="tarif-price">Uniquement en ligne</span></div>
-    <p style="margin-top:2rem"><a class="btn btn-solid" onclick="show('contact')">Me contacter</a></p>
+    <p style="margin-top:2rem"><a class="btn btn-solid" href="#" onclick="show('contact');return false;">Me contacter</a></p>
   </section>
 </div>
 
@@ -476,7 +476,7 @@
     <div class="tarif-row"><span class="tarif-label">Séance individuelle (50 min)</span><span class="tarif-price">80 €</span></div>
     <div class="tarif-row"><span class="tarif-label">Rythme</span><span class="tarif-price">Hebdomadaire puis bimensuel</span></div>
     <div class="tarif-row"><span class="tarif-label">Modalité</span><span class="tarif-price">Uniquement en ligne</span></div>
-    <p style="margin-top:2rem"><a class="btn btn-solid" onclick="show('contact')">Me contacter</a></p>
+    <p style="margin-top:2rem"><a class="btn btn-solid" href="#" onclick="show('contact');return false;">Me contacter</a></p>
   </section>
 </div>
 
@@ -529,13 +529,13 @@
     <hr class="divider">
     <h3>Supervision de thérapeutes</h3>
     <p>La supervision est un espace de soutien et d'éclairage dédié aux praticiens de l'accompagnement. Elle permet une pratique éthique, vivante, protectrice pour le thérapeute comme pour son client.</p>
-    <p><a class="btn btn-solid" onclick="show('supervision')" style="font-size:12px">Découvrir la supervision →</a></p>
+    <p><a class="btn btn-solid" href="#" onclick="show('supervision');return false;" style="font-size:12px">Découvrir la supervision →</a></p>
     <hr class="divider">
     <p class="section-label">En pratique</p>
     <div class="tarif-row"><span class="tarif-label">Séance individuelle (50 min)</span><span class="tarif-price">80 €</span></div>
     <div class="tarif-row"><span class="tarif-label">Rythme habituel</span><span class="tarif-price">Hebdomadaire ou bimensuel</span></div>
     <div class="tarif-row"><span class="tarif-label">Modalité</span><span class="tarif-price">Uniquement en ligne</span></div>
-    <p style="margin-top:2rem"><a class="btn btn-solid" onclick="show('contact')">Me contacter</a></p>
+    <p style="margin-top:2rem"><a class="btn btn-solid" href="#" onclick="show('contact');return false;">Me contacter</a></p>
   </section>
 </div>
 
@@ -575,7 +575,7 @@
     <p>Depuis 2010, mon regard clinique et mon expertise se sont développés auprès de personnes accompagnées autour de problématiques variées : deuils, séparations, burn out, changement de vie, dépendance affective, difficultés relationnelles et émotionnelles.</p>
     <p>Ma vie antérieure — 15 ans conseillère en formation continue pour adultes — reste très présente, notamment en termes de processus de groupe et d'apprentissage.</p>
     <div class="quote-block"><p>Ma pratique s'enrichit continuellement à travers des formations, supervisions, conférences, lectures — parce qu'accompagner l'autre suppose de continuer à se former soi-même.</p></div>
-    <p style="margin-top:2rem"><a class="btn btn-solid" onclick="show('contact')">Me contacter</a></p>
+    <p style="margin-top:2rem"><a class="btn btn-solid" href="#" onclick="show('contact');return false;">Me contacter</a></p>
   </section>
 </div>
 
@@ -598,7 +598,7 @@
     <p>Pour toute demande de renseignements ou de rendez-vous, merci de me contacter par téléphone ou par mail. Un premier appel nous permettra de déterminer ensemble si un suivi est approprié.</p>
     <div class="contact-btns">
       <div class="contact-block"><div class="c-label">Par téléphone</div><a class="call-btn" href="tel:+33619653998">Appeler</a><p class="c-note">Du lundi au vendredi</p></div>
-      <div class="contact-block"><div class="c-label">Par mail</div><a class="mail-btn" href="mailto:coachlavie@gmail.com">Écrire</a><p class="c-note">Réponse sous 48h</p></div>
+      <div class="contact-block"><div class="c-label">Par mail</div><a class="mail-btn" href="/cdn-cgi/l/email-protection#c5a6aaa4a6ada9a4b3aca085a2a8a4aca9eba6aaa8">Écrire</a><p class="c-note">Réponse sous 48h</p></div>
     </div>
     <hr class="divider">
     <div class="tarif-row"><span class="tarif-label">Séance individuelle (50 min)</span><span class="tarif-price">80 €</span></div>
@@ -610,17 +610,11 @@
   <p>© 2025 Nathalie Favre — Coach la vie — Psychopraticienne — Consultations en ligne</p>
 </footer>
 
-<script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js" defer></script><script>
   function show(id) {
     document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
     document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
     document.getElementById(id).classList.add('active');
     var nav = document.getElementById('nav-' + id);
     if (nav) nav.classList.add('active');
-    window.scrollTo(0, 0);
-  }
-  function toggleMenu() {
-    var menu = document.getElementById('mobile-menu');
-    if (menu) menu.classList.toggle('open');
-  }
-</script>
+    window.sc
